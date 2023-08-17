@@ -1,4 +1,16 @@
 import java.util.Date;
+/**
+*
+*RTECH - CURSO JAVA DIO - TIPOS DE VARIAVEIS 
+*@version           ......: 1.0
+*@program_Objective ......: DEMOSTRAR OS TIPOS DE VARIAVEIS
+*@param             ......:                    
+*@return            ......:
+*@History           ......: EXEMPLO DE TIPOS DE VARIAVEIS          
+*@since             ......: 14/08/2023     
+*@author            ......: Rogério Amorim   
+*
+**/
 
 public class TiposVariaveis {
     public static void main(String[] args) {
