@@ -3,6 +3,27 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "SistemaMedidas",
+			"request": "launch",
+			"mainClass": "SistemaMedidas",
+			"projectName": "trilha-java-dio_f4ebf7b7"
+		},
+		{
+			"type": "java",
+			"name": "ResultadoEscolar",
+			"request": "launch",
+			"mainClass": "ResultadoEscolar",
+			"projectName": "trilha-java-dio_f4ebf7b7"
+		},
+		{
+			"type": "java",
+			"name": "CaixaEletronico",
+			"request": "launch",
+			"mainClass": "CaixaEletronico",
+			"projectName": "trilha-java-dio_f4ebf7b7"
+		},
+		{
+			"type": "java",
 			"name": "TestarExercicio",
 			"request": "launch",
 			"mainClass": "TestarExercicio",
