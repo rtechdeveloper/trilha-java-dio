@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "TestarExercicio",
+            "request": "launch",
+            "mainClass": "TestarExercicio",
+            "projectName": "java-terminal_f215754f"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",

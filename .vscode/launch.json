@@ -3,6 +3,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "TestarExercicio",
+			"request": "launch",
+			"mainClass": "TestarExercicio",
+			"projectName": "trilha-java-dio_f0d15397"
+		},
+		{
+			"type": "java",
 			"name": "AboutMe",
 			"request": "launch",
 			"mainClass": "AboutMe",
@@ -25,5 +32,8 @@
 			"isMultiSession": true,
 			"enableTableSync": true
 		}
-	]
+	],
+	"lastPrograms": [],
+	"lastProgramExecuted": "<cancel>",
+	"lastProgramArguments": []
 }
