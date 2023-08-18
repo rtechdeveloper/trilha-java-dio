@@ -3,6 +3,41 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "AboutMe",
+			"request": "launch",
+			"mainClass": "AboutMe",
+			"projectName": "trilha-java-dio_f4ebf7b7"
+		},
+		{
+			"type": "java",
+			"name": "ExemploWhile",
+			"request": "launch",
+			"mainClass": "ExemploWhile",
+			"projectName": "trilha-java-dio_f4ebf7b7"
+		},
+		{
+			"type": "java",
+			"name": "ExmploForArray",
+			"request": "launch",
+			"mainClass": "ExmploForArray",
+			"projectName": "trilha-java-dio_f4ebf7b7"
+		},
+		{
+			"type": "java",
+			"name": "ExmploForArrat",
+			"request": "launch",
+			"mainClass": "ExmploForArrat",
+			"projectName": "trilha-java-dio_f4ebf7b7"
+		},
+		{
+			"type": "java",
+			"name": "ExemploFor",
+			"request": "launch",
+			"mainClass": "ExemploFor",
+			"projectName": "trilha-java-dio_f4ebf7b7"
+		},
+		{
+			"type": "java",
 			"name": "SistemaMedidas",
 			"request": "launch",
 			"mainClass": "SistemaMedidas",
