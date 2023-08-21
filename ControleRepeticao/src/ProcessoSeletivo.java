@@ -4,14 +4,16 @@ import java.util.concurrent.ThreadLocalRandom;
 public class ProcessoSeletivo {
 
 	public static void main(String[] args) {
-	System.out.println("Processo Seletivo");
+		System.out.println("									");
+		System.out.println("Processo Seletivo");
+		System.out.println("									");
 	
 	selecaoCandidatos();
-	//analisarCandidato();
-	
+			
 	}
-	
-	static void selecaoCandidatos() {
+
+	//SELECIONA OS CANDIDATOS
+	public static void selecaoCandidatos() {
 		String [] candidatos = {"PEDRO", "JOAO", "MARIA", "JOSE", "PAULO", 
 						"JULIANA", "MIRELA", "AUGUSTO", "FABIO", "LUCAS"};
 		
@@ -35,14 +37,34 @@ public class ProcessoSeletivo {
 			candActual++;
 
 		}
+	
+		System.out.println("									");
+		System.out.println("||>>>> LISTA DOS SELECIONADOS <<<<||");
+		System.out.println("									");
+		
+		for (String candidato: lista){
+			System.out.println("O candidato selecionando é: " + candidato);
+		}
+	}
+	
+	static double valorPretendido() {
+		return ThreadLocalRandom.current().nextDouble(1800, 2200);
+	}
+
+	/**
+	static void printList(String [] lista){
+
+		for(int indice=0; indice < lista.length; indice++ ){
+			System.out.println("O candidato de nº " + indice + " é o " + lista);
+
 		System.out.println("									");
 		System.out.println("||>>>> LISTA DOS SELECIONADOS <<<<||");
 		System.out.println("Os candidatos selecionados são: " + lista.toString());
-	
-    }		
 
-	static double valorPretendido() {
-		return ThreadLocalRandom.current().nextDouble(1800, 2200);
+		for (String candidato: lista){
+			System.out.println("O candidato selecionando é: " + candidato);
+		}
+		}		
 	}
 	//daqui para baixo nao esta sendo executado
 	/**static void analisarCandidato(double salarioPretendido) {

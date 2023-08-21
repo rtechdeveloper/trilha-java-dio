@@ -3,6 +3,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "ProcessoSeletivo",
+			"request": "launch",
+			"mainClass": "ProcessoSeletivo",
+			"projectName": "trilha-java-dio_f4ebf7b7"
+		},
+		{
+			"type": "java",
 			"name": "AboutMe",
 			"request": "launch",
 			"mainClass": "AboutMe",
