@@ -3,6 +3,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Contador",
+			"request": "launch",
+			"mainClass": "Contador",
+			"projectName": "trilha-java-dio_f4ebf7b7"
+		},
+		{
+			"type": "java",
 			"name": "ProcessoSeletivo",
 			"request": "launch",
 			"mainClass": "ProcessoSeletivo",
